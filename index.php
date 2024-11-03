@@ -10,7 +10,6 @@ print_r('<hr>');
 print_r('3 Задание - ');
 print_r('echo выводит строки ');
 print_r('<hr>');
-//phpinfo();
 print_r('4 Задание - ');
 print_r('я думаю, что нахуй не нужен этот VirtualBox и альтернативная система ');
 print_r('<hr>');
@@ -44,4 +43,65 @@ echo decbin (4252);
 print_r('<hr>');
 print_r ('Второе число - ');
 echo decbin (89080);
+print_r('<hr>');
+print_r('ЗАДАЧНИК');
+print_r('<hr>');
+print_r('1.1 Задание - ');
+print_r('<hr>');
+$value = 0;
+if ($value > 0 or $value == 0) {
+    echo 'Число положительное';
+}
+if ($value < 0) {
+	echo 'Число отрицательное';
+}
+print_r('<hr>');
+print_r('1.2 Задание - ');
+print_r('<hr>');
+echo mb_strlen('фывфыв');
+print_r('<hr>');
+print_r('1.3 Задание - ');
+print_r('<hr>');
+echo mb_substr('Егор крут', 0, 1);
+print_r('<hr>');
+print_r('1.4 Задание - ');
+print_r('<hr>');
+$value = 10;
+if ($value > 10) {
+	echo $value + 100;
+} else {
+	echo $value - 30;
+}
+print_r('<hr>');
+print_r('1.5 Задание - ');
+print_r('<hr>');
+$value = 5;
+if ($value % 2 == 0) {
+	echo ($value / 2);
+} else {
+	echo ($value * 3);
+}
+print_r('<hr>');
+print_r('1.6 Задание - ');
+print_r('<hr>');
+$value = 9;
+if ($value > 50) {
+	echo $value ** 2;
+} else if ($value > 10 and $value < 30) {
+	echo 'Ноль';
+} else {
+	echo 'Ошибка';
+}
+print_r('<hr>');
+print_r('1.7 Задание - ');
+print_r('<hr>');
+$value1 = 11;
+$value2 = 11;
+if ($value1 > $value2) {
+	echo $value1;
+} else if ($value1 < $value2) {
+	echo $value2;
+} else {
+	echo 'Ты еблан';
+}
 ?>
