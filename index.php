@@ -104,4 +104,53 @@ if ($value1 > $value2) {
 } else {
 	echo 'Ты еблан';
 }
+print_r('<hr>');
+print_r('1.8 Задание - ');
+print_r('<hr>');
+$value1 = 100;
+$value2 = 200;
+if ($value1 - $value2 == 100 or -100) {
+	echo 'Да';
+} else {
+	echo 'Нет';
+}
+print_r('<hr>');
+print_r('1.9 Задание - ');
+print_r('<hr>');
+$value1 = 80;
+$value2 = 100;
+if ($value1 - $value2 <= 20) {
+	echo 'Да';
+} else {
+	echo 'Нет';
+}
+print_r('<hr>');
+print_r('2.0 Задание - ');
+print_r('<hr>');
+$value = 8;
+if ($value>=3 and $value<=5) {
+    echo "Весна";
+}
+elseif ($value>=6 and $value<=8) {
+    echo "Лето";
+}
+elseif ($value>=9 and $value<11) {
+    echo "Осень";
+}
+elseif ($value==1 or $value==2 or $value==12) {
+    echo "Зима";
+} else {
+	echo "Ошибка";
+}
+print_r('<hr>');
+print_r('2.1 Задание - ');
+print_r('<hr>');
+$a = 12;
+$b = 7;
+$c = 1;
+$disc = ($b**2) - (4*$a*$c);
+echo ($disc);
+$x1 = (-$b-sqrt($disc))/(2*$a);
+$x2 = (-$b+sqrt($disc))/(2*$a);
+echo ($x1.$x2);
 ?>
