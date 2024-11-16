@@ -48,7 +48,7 @@ print_r('ЗАДАЧНИК');
 print_r('<hr>');
 print_r('1.1 Задание - ');
 print_r('<hr>');
-$value = 0;
+$value = 15;
 if ($value > 0 or $value == 0) {
     echo 'Число положительное';
 }
@@ -153,4 +153,25 @@ echo ($disc);
 $x1 = (-$b-sqrt($disc))/(2*$a);
 $x2 = (-$b+sqrt($disc))/(2*$a);
 echo ($x1.$x2);
+print_r('<hr>');
+print_r('1.4 Задачник, задание №1 - ');
+print_r('<hr>');
+for ($i=1; $i <=100; $i++){
+	echo ($i);
+}
+print_r('<hr>');
+print_r('1.4 Задачник, задание №2 - ');
+print_r('<hr>');
+for ($i=-100; $i <=0; $i++){
+	echo ($i);
+}
+print_r('<hr>');
+print_r('1.4 Задачник, задание №3 - ');
+print_r('<hr>');
+for ($i=100; $i >=1; $i--){
+	echo ($i);
+}
+print_r('<hr>');
+print_r('1.4 Задачник, задание №4 - ');
+print_r('<hr>');
 ?>
